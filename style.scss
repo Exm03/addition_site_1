@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "stratosskyeng";
+    src: url(./fonts/06\ 08_37_07638eff3360a9f7.40489498stratosskyengwebregular.woff2) format("woff2"), url(./fonts/06\ 08_37_07638eff3364b958.85488711stratosskyengwebregular.woff) format(woff);
+    font-weight: normal;
+    font-size: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'stratosskyeng',Arial,sans-serif;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+body{
+    background-color: palevioletred;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px;
+    &__text{
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+    }
+}
+
+.menu{
+    display: flex;
+    gap: 24px;
+    &__link{
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
