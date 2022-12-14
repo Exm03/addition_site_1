@@ -21,8 +21,8 @@ header {
   padding-left: 20px;
 }
 
-body {
-  background-color: palevioletred;
+.start {
+  background-color: #AD61FF;
 }
 
 .logos {
@@ -51,4 +51,29 @@ body {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.top__title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 100%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+.top__heading {
+  font-weight: 400;
+  font-size: 260px;
+  line-height: 60%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+
+.arrow {
+  max-width: 503px;
 }/*# sourceMappingURL=style.css.map */
